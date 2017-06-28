@@ -1,0 +1,92 @@
+ /*reset */  
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}  /* 初始化标签在所有浏览器中的margin、padding值 */  
+fieldset,img {border:0 none}  /* 重置fieldset（表单分组）、图片的边框为0*/  
+dl,ul,ol,menu,li {list-style:none}   /* 重置类表前导符号为onne,menu在HTML5中有效 */  
+blockquote, q {quotes: none}   /* 重置嵌套引用的引号类型 */  
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}  /* 重置嵌套引用*/  
+input,select,textarea,button {vertical-align:middle}  /* 重置表单控件垂直居中*/  
+button {border:0 none;background-color:transparent;cursor:pointer}  /* 重置表单button按钮效果 */  
+body {background:#fff}   /* 重置body 页面背景为白色 */  
+body,th,td,input,select,textarea,button {font-size:12px;line-height:1 ;font-family:'Helvetica Neue',Arial,'Microsoft Yahei',sans-serif;color:#666} /* 重置页面文字属性 */  
+a {color:#666;text-decoration:none;font-family:'Helvetica Neue',Arial,'Microsoft Yahei',sans-serif;outline:none; }  /* 重置链接a标签 */  
+a:active, a:hover {text-decoration:none}   /* 重置链接a标签的鼠标滑动效果 */  
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}  /* 重置样式标签的样式 */  
+caption {display:none;}    /* 重置表格标题为隐藏 */  
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}    /* 重置table属性 */  
+img{vertical-align:top}  /* 图片在当前行内的垂直位置 */  
+i{ font-style:normal;}
+/*html{-webkit-text-size-adjust:none;}*/
+.onselectstart{-moz-user-select:none;} /* 火狐浏览器阻止双击选中文本 */  
+.stylecolor{color: #00A199}
+select::-ms-expand { display: none;}/* 清除下拉单默认样式*/
+/*展厅公司详情页开始*/
+.exhibition_hall_details_head{width:100%;background: #fff}
+.exhibition_hall_details_head .head_top{width:100%;height:30px;border-bottom: 2px solid #E4E4E4;}
+.exhibition_hall_details_head .head_top .nav{width:1200px;height: 100%;margin: 0 auto;color: #989898;font-size: 12px;}
+.exhibition_hall_details_head .head_top .nav .left{width:720px;height:100%;display: inline-block;}
+.exhibition_hall_details_head .head_top .nav .left a:nth-child(2){display:inline-block;width:70px;height:100%;line-height: 30px;color: #989898;font-size: 12px;}
+.exhibition_hall_details_head .head_top .nav .right{width:400px;height: 100%;display: inline-block;line-height: 30px;float: right;}
+.exhibition_hall_details_head .head_top .nav .right span{padding-right: 20px;display:inline-block;height:100%;line-height: 30px;cursor: pointer;position: relative;}
+.exhibition_hall_details_head .head_top .nav .right span:hover{color:#00A199;}
+.exhibition_hall_details_head .head_top .nav .right span:hover ul{display: block;}
+.exhibition_hall_details_head .head_top .nav .right span ul{width: auto;position: absolute;top:30px;left:0;background: #fff;display: none}
+.exhibition_hall_details_head .head_top .nav .right span ul li{width: 80px;height: 20px;line-height: 20px;text-align: center;}
+.exhibition_hall_details_head .head_top .nav .right span ul li:hover a{color:#00A199;}
+.exhibition_hall_details_head .head_con{width:1200px;height: 165px;margin: 0 auto}
+.exhibition_hall_details_head .head_con .con_left{width:418px;height:165px;float: left;}
+.exhibition_hall_details_head .head_con .con_left>img{width: 112px;height: 112px;margin-top: 30px;float: left;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;}
+.exhibition_hall_details_head .head_con .con_left .list{width: 290px;height: 112px;float: left;padding-left: 15px;margin-top: 30px;}
+.exhibition_hall_details_head .head_con .con_left .list h2{display:block;height: 36px;line-height: 36px;font-size: 16px;font-weight: 600;color:#000; }
+.exhibition_hall_details_head .head_con .con_left .list h2 span{display: inline-block;width: 100px;height: 100%;position: relative;padding-left: 20px;background: url(../../images/exhibition_hall_details_tb.png)no-repeat -285px -105px;float: right;font-size: 12px;color:#878787;cursor: pointer;}
+.exhibition_hall_details_head .head_con .con_left .list h2 span img{position: absolute;top: 35px;left: 0;display: none}
+.exhibition_hall_details_head .head_con .con_left .list h2 span:hover img{display: block}
+.exhibition_hall_details_head .head_con .con_left .list>img{height: 25px;margin-top: -5px;}
+.exhibition_hall_details_head .head_con .con_left .list>span{display: block;width: 100%;height: 25px;color:#000;line-height: 25px;}
+.exhibition_hall_details_head .head_con .con_left .list>span a{color: #000}
+.exhibition_hall_details_head .head_con .con_left .list>span .padding_left{padding-left: 20px;}
+.exhibition_hall_details_head .head_con .con_left .list>span dd{display: inline-block;}
+.exhibition_hall_details_head .head_con .con_left .list>span b{color:#E40011;}
+.exhibition_hall_details_head .head_con .search{width: 414px;height: 80px;float: left;padding-top: 70px;}
+.exhibition_hall_details_head .head_con .search .ss{width:414px;height:38px;background:#00A199;border:2px solid #00A199;}
+.exhibition_hall_details_head .head_con .search .ss input{width:330px;height:100%;float: left;background: #fff;border:none;font-size:14px;color:#898989;padding-left: 10px;}
+.exhibition_hall_details_head .head_con .search .ss .but{width:84px;height: 100%;text-align: center;line-height: 38px;color:#fff;font-weight: 600;font-size: 20px;cursor:pointer;float: left;}
+.exhibition_hall_details_head .head_con .search .search_bottom{width: 540px;height: 30px;}
+.exhibition_hall_details_head .head_con .search .search_bottom a{width:54px;display:inline-block;height: 12px;margin-top: 9px;color:#989898;border-left:1px solid #989898;text-align: center;}
+.exhibition_hall_details_head .head_con .search .search_bottom a:nth-child(1){border:none;}
+.exhibition_hall_details_head .head_con .scan {margin-top: 40px; margin-left: 120px;}
+.exhibition_hall_details_head .head_con .scan .img img{width: 80px;height: 80px;}
+
+
+
+/*页脚*/
+.index_end{width:100%;height: 298px;margin-top: 48px;background: #fff;clear:both;}
+.index_end .box{width:1200px;height: 95px;margin:0 auto;}
+.index_end .box span{width:240px;height: 100%;line-height: 95px;display: inline-block;padding-left: 36px;font-size: 16px;font-weight: 600;color:#221816;}
+.index_end .box span:nth-child(1){margin-left: 82px;font-size: 16px;font-weight: 600;background: url(../images/index_box_end1.png) no-repeat 0px 30px;}
+.index_end .box span:nth-child(2){background: url(../images/index_box_end2.png) no-repeat 0px 30px;}
+.index_end .box span:nth-child(3){background: url(../images/index_box_end3.png) no-repeat 0px 30px;}
+.index_end .box span:nth-child(4){background: url(../images/index_box_end4.png) no-repeat 0px 30px;}
+.index_end .hr{width: 100%;border-top:2px solid #F6F6F6}
+.index_end>ul{width: 1200px;height: 200px;margin: 0 auto}
+.index_end>ul li{width: 210px;height: 100%;display: inline-block;float: left;padding-left: 30px;}
+.index_end>ul li span{width: 100%;height: 25px;line-height: 25px;display: inline-block;padding-top: 30px;color: #231816;font-size: 16px;}
+.index_end>ul li a{width: 100%;height: 20px;line-height: 20px;display: inline-block;color: #888888;font-size: 13px;}
+.index_end>ul li img{margin-top: 20px;margin-left: 5px;}
+{width:100%;height:68px;background: #3E3A39}
+footer{width:100%;height:68px;background: #3E3A39}
+footer div{width: 1200px;height: 100%;margin:0 auto;}
+footer div span{display:block;width: 450px;margin:0 auto;height: 50%;line-height: 34px;font-size: 12px;text-align: center;color: #817D7C}
+footer div span a{display:block;width:14%;float: left;height: 100%;line-height: 34px;text-align: center;font-size: 12px;color: #fff}
+footer{width:100%;height:28px;background: #231816}
+footer div{width: 1200px;height: 100%;margin:0 auto;}
+footer div span{display:block;width: 450px;margin:0 auto;height: 50%;line-height: 28px;font-size: 12px;text-align: center;color: #817D7C}
+footer div span a{display:block;width:14%;float: left;height: 100%;line-height: 34px;text-align: center;font-size: 12px;color: #fff}
+.literary{width: 100%;height: 40px;background: #231816}
+.literary span{display:block;width: 450px;margin:0 auto;height: 50%;line-height: 40px;font-size: 12px;text-align: center;color: #817D7C}
+.literary span a{display:block;width:14%;float: left;height: 100%;line-height: 34px;text-align: center;font-size: 12px;color: #fff}
+.exhibition_list_end{width:100%;height:200px;margin: 0px auto;}
+.exhibition_list_end ul{width:1100px;height:200px;margin: 0px auto;}
+.exhibition_list_end ul li{width:150px;}
+.exhibition_list_end ul li img{margin-left: 20px;}
+
+/*展厅公司详情页结束*/

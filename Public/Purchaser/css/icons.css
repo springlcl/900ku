@@ -1,0 +1,16 @@
+.ico_all{background: url(../images/icons.png) no-repeat;} /*调取图标图片的地方*/
+.I_jiantou_top{background-position:0 -148px; ;width: 19px;height: 19px;} 	/*向上的箭头*/
+.I_jiantou_botton{background-position:0 -177px ;width: 19px;height: 19px;} 	/*向下的箭头*/
+.I_xiangmu{background-position: 0 0;width: 22px;height: 22px;} 	/*公司项目*/
+.I_zhunru{background-position: 0 -29px;width: 22px;height: 22px;} 	/*准入管理*/
+.I_caiwu{background-position: 0 -59px;width: 22px;height: 22px;} 	/*财务管理*/
+.I_dingdan{background-position: 0 -87px;width: 22px;height: 22px;} 	/*订单管理*/
+.I_yuangong{background-position: 0 -119px;width: 22px;height: 22px;} 	/*员工管理*/
+.I_no_data{background-position: 0 -218px;width: 50px;height: 33px;} 	/*无数据文件夹图标*/
+.I_ztrz{background-position: 0 -258px;width: 21px;height: 16px;} 	/*展厅认证*/
+.I_pencil{background-position: 0 -282px;width: 12px;height: 13px;} 	/*小铅笔*/
+.I_guanbi{background-position: 0 -302px;width: 17px;height: 17px;} 	/*关闭图标*/
+.I_shuxian{background-position: 0 -332px;width: 21px;height: 11px;} 	/*中间小竖线*/
+.I_fangdajing{background-position: 0 -355px;width: 20px;height: 13px;} 	/*放大镜*/
+.I_wlXiaoyuan{background-position: 0 -376px;width: 11px;height: 11px;} 	/*物流小圆点*/
+.I_xy_jianhao{background-position: 0 -404px;width: 9px;height: 9px;position: relative;top: -4px;left: -4px;} 	/*添加图片上的小圆-减号*/

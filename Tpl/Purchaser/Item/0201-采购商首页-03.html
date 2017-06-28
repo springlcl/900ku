@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>0201-采购商首页-01</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/icons.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wh1200auto clearfix">
+		<!-- 左边导航 -->
+		<div class="left_con fl">
+			<div class="head_info clearfix mgt10">
+				<div class="head_img bor-r50 mgl15 fl">
+					<img src="images/head-img.png" alt="">
+				</div>
+				<div class="text fl mgt15 fs-14 mgl10">
+					<h3 class="mgb10">管理人员11</h3>
+					<span class="col-slv">退出</span>
+				</div>
+			</div>
+			<ul class="nav">
+				<li>
+					<div class="one-level pdw20 clearfix">
+						<i class="ico_all I_zhunru"></i>
+						准入管理
+						<span class="ico_all I_jiantou_botton fr"></span>
+					</div>
+					<dl class="two-level">
+						<a href="0401-准入供应商02.html"><dd class=""><i class="mgr5">•</i>准入供应商</dd></a>
+						<a href="0405-准入商品01.html"><dd><i class="mgr5">•</i>准入商品</dd></a>
+						<a href="0407-添加商品分类.html"><dd><i class="mgr5">•</i>商品分类</dd></a>
+					</dl>
+				</li>
+				<li class="active">
+					<div class="one-level pdw20 clearfix">
+						<i class="ico_all I_xiangmu"></i>
+						公司项目
+						<span class="ico_all I_jiantou_top fr"></span>
+					</div>
+					<dl class="two-level">
+						<a href="0201-采购商首页-01.html"><dd class="active"><i class="mgr5">•</i>进行中项目</dd></a>
+						<a href="0201-采购商首页-02.html"><dd><i class="mgr5">•</i>历史项目</dd></a>
+					</dl>
+				</li>
+				<li>
+					<div class="one-level pdw20 clearfix">
+						<i class="ico_all I_caiwu"></i>
+						财务管理
+						<span class="ico_all I_jiantou_botton fr"></span>
+					</div>
+					<dl class="two-level">
+						<a href="0501-财务-统计.html"><dd><i class="mgr5">•</i>统计</dd></a>
+						<a href="0502-财务-订单应付款查询.html"><dd><i class="mgr5">•</i>应付款查询</dd></a>
+						<a href="0504-财务-付款记录.html"><dd><i class="mgr5">•</i>付款记录</dd></a>
+						<a href="0505-财务-发票待确认03.html"><dd><i class="mgr5">•</i>发票管理</dd></a>
+						<a href="0506-发票资质.html"><dd><i class="mgr5">•</i>发票资质</dd></a>
+					</dl>
+				</li>
+				<li>
+					<div class="one-level pdw20 clearfix">
+						<i class="ico_all I_dingdan"></i>
+						订单管理
+						<span class="ico_all I_jiantou_botton fr"></span>
+					</div>
+					<dl class="two-level">
+						<a href="0601订单管理-准入.html"><dd class=""><i class="mgr5">•</i>准入订单</dd></a>
+						<a href="0601-订单管理-非准入01.html"><dd><i class="mgr5">•</i>非准入订单</dd></a>
+						<a href="0604-退货列表-01.html"><dd><i class="mgr5">•</i>退货列表</dd></a>
+					</dl>
+				</li>
+				<li>
+					<div class="one-level pdw20 clearfix">
+						<i class="ico_all I_yuangong"></i>
+						员工管理
+						<span class="ico_all I_jiantou_botton fr"></span>
+					</div>
+					<dl class="two-level">
+						<a href="0607-员工账号设置01.html"><dd class=""><i class="mgr5">•</i>员工管理</dd></a>
+						<a href="0607-员工账号设置-编辑01.html"><dd><i class="mgr5">•</i>权限设置</dd></a>
+					</dl>
+				</li>
+			</ul>
+		</div>
+		<!-- 右边内容 -->
+		<div class="right_content fl">
+			<div class="company_project_con right_con_down">
+				<div class="top pdl30 pdt25 bg-fff">
+					<h3 class="fs-24 fw600">贵瑾珠宝<span class="fs-12 col-999 mgl35">河北省廊坊市广阳区万达广场</span></h3>
+					<div><button class="btn-150x40 bg-slv bor-r5 col-fff fs-16 mgt20">新建项目/子公司</button></div>
+					<div class="tit center mgauto">
+						<a href="0201-采购商首页-01.html"><span class="btn-150x40 sanjiao_bottom_lan_quan bg-slv col-fff">进行中项目</span></a>
+						<a href="0201-采购商首页-02.html"><span class="btn-150x40">历史项目</span></a>
+					</div>
+				</div>
+				<div class="time_choice"><span class="col-666">选择时间</span><input id="wrong_start" class="btn-80x20 mgw10 bor-r3 pdl10" type="text"><span class="col-999">至</span><input id="wrong_end" class="btn-80x20 mgw10 bor-r3 pdl10" type="text"><button class="btn-50x20 bg-slv col-fff bor-r3 mgl15">筛选</button></div>
+				<ul class="project_list clearfix">
+					<div class="no_data mgt35 pdt30 center">
+						<i class="ico_all I_no_data"></i>
+						<span class="fs-16">对不起，暂不相关信息！</span>
+						<h6 class="col-999 mgt20">温馨提示: 请在左上角点击"<span class="col-lan">新建项目/子公司</span>"来添加数据.</h6>
+					</div>
+				</ul>
+				<div class="record_info">版权所有:900库 [京ICP备1000000001号-1]</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="laydate/laydate.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script>
+	  //选择时间
+    var start = {
+      elem: '#wrong_start',
+      format: 'YYYY/MM/DD ',
+      min: '1900-01-01 ', //最小日期
+      max: laydate.now(), //最大日期
+      istoday: false,
+      choose: function(datas){
+         end.min = datas; //开始日选好后，重置结束日的最小日期
+         end.start = datas //将结束日的初始值设定为开始日
+      }
+    };
+    var end = {
+      elem: '#wrong_end',
+      format: 'YYYY/MM/DD ',
+      min: '1900-01-01 ', //最小日期
+      max: laydate.now(),
+      istoday: false,
+      choose: function(datas){
+        start.max = datas; //结束日选好后，重置开始日的最大日期
+      }
+    };
+    laydate(start);
+    laydate(end);
+</script>
+</html>

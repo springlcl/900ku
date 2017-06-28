@@ -1,0 +1,9 @@
+jquery.min.js 是1.8.3版本
+
+layer使用的是layer_mobile版本
+
+ajaxfileupload.js上传插件
+
+jquery.city.js   省市区联动插件
+
+Validform_v5.3.2_min.js   表单验证插件

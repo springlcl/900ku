@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>高级定制</title>
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="js/dist/switch.css">
+	<style>
+
+	</style>
+</head>
+<body>
+<!-- 左导一 -->
+  <div id="app-first-sidebar">
+    <div>
+      <ul>
+        <li class="fl head-img"><a class="team-logo-wrap" href="#" title="三只松鼠">
+        <div class="team-logo" style="background-image:url(./images/head-img.png);display:inline-block">
+        </div>
+        </a></li>
+        <li class="fl"><a class="switch-store" href="#">切换</a></li>
+      </ul>
+      <div style="clear:both">
+      </div>
+      <nav>
+        <ul class="one-level">
+          <li class="active"><a href="0105-展厅首页.html"><i class="sidebar-icon sidebar-icon-shop"></i> 展厅</a></li>
+          <li class="js-guide-goods"><a href="0301-发布商品.html"><i class="sidebar-icon sidebar-icon-goods"></i> 商品</a></li>
+          <li class="js-guide-fans"><a href="0402-业务员管理01.html"><i class="sidebar-icon sidebar-icon-fans"></i> 渠道管理</a></li>
+          <li class="js-guide-trade"><a href="0501-准入订单.html"><i class="sidebar-icon sidebar-icon-order"></i> 订单/财务</a></li>
+          <li class="js-guide-setting"><a href="0601-展厅信息.html"><i class="sidebar-icon sidebar-icon-setting"></i> 设置</a></li>
+        </ul>
+        <ul class="suspension">
+          <li class="system"><i></i>系统消息
+            <div class="sanjiao_left_hei t_box">
+              <h4>消息通知<i>3</i></h4>
+            </div>
+          </li>
+          <li class="tel"><i></i>客服电话
+            <div class="sanjiao_left_hei t_box">
+              <h4>客服电话</h4>
+              <h4>183182929292</h4>
+            </div>
+          </li>
+          <li class="ewm"><i></i>平台二维码
+            <div class="sanjiao_left_hei t_box">
+              <h4>平台二维码</h4>
+              <div class="img">
+                <img src="./images/index_end_tbc.png" alt="">
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+<!-- 左导二 -->
+  <div id="app-second-sidebar">
+    <div class="zg_scroll"></div>
+    <div>
+      <nav>
+      <dl>
+        <dt class="second-sidebar-title">展厅概况</dt>
+        <a href="0105-展厅首页.html"><dd>业务概况</dd></a>
+        <a href="0201-展厅微店设计.html"><dd>浏览概况</dd></a>
+        <dt class="second-sidebar-title">展厅装修</dt>
+        <a href="0202-展厅-选择模板.html"><dd>选择模版</dd></a>
+        <a href="0203-展厅-高级定制.html"><dd>高级定制</dd></a>
+        <dt class="second-sidebar-title">展厅广告设置</dt>
+        <a href="0204-展厅-移动广告设置.html"><dd class="active">广告设置</dd></a>
+        <dt class="second-sidebar-title">展厅服务</dt>
+        <a href="0207-展厅-我的文件01.html"><dd>我的文件</dd></a>
+        <a href="0208-展厅-客服列表01.html"><dd>客服列表</dd></a>
+        <a href="0209-展厅-供应商认证.html"><dd>供应商认证</dd></a>
+      </dl>
+      </nav>
+    </div>
+  </div>
+<!-- 右侧 内容-->
+<div class="clearfix container" id="app-container">
+        <div class="cont_lump cont_lump_Customer  cont_lump_yidongguanggao bor_bm1">
+          <div class="cont_title">
+            <span>广告设置</span> 
+          </div>
+          <div class="span_nav clearfix">
+              <span class="fl cur-p active">广告设置</span>
+              <span class="fl cur-p">手机端欢迎页设置</span>
+          </div>
+          <div class="advert_form">
+              <ul class="lump pc_form">
+                  <li class="">
+                      <span class="text fl">排序：</span>
+                      <div class="fl">
+                        <input type="text">
+                      </div>
+                  </li>
+                  <li class="">
+                      <span class="text fl">广告标题：</span>
+                      <div class="fl">
+                        <input type="text">
+                      </div>
+                  </li>
+                  <li class="">
+                      <span class="text fl">广告图片：</span>
+                      <div class="fl">
+                        <input type="text"><button class="choice btn-fff-80">选择图片</button>
+                        <div class="SampleImg">
+                          <img src="images/guanggao.png" alt="">
+                        </div>
+                        <p class="col-999">建议尺寸：640*350，请将所有广告尺寸保持一致。</p>
+                      </div>
+                  </li>
+                  <li class="">
+                      <span class="text fl">广告标题：</span>
+                      <div class="fl">
+                        <input type="text"><button class="choice btn-fff-80">选择链接</button>
+                      </div>
+                  </li>
+                  <li class="radio">
+                      <span class="text fl">状态：</span>
+                      <div class="fl">
+                        <input name="gg_pc_zt" type="radio" id="zt_show"><label for="zt_show">显示</label>
+                        <input name="gg_pc_zt" type="radio" id="zt_hide" checked="checked"><label for="zt_hide">隐藏</label>
+                      </div>
+                  </li>
+                  <li class="">
+                      <span class="text fl"></span>
+                      <div class="fl">
+                        <button class="btn-lan-160">提交</button>
+                        <button class="btn-fff-160 mgl20">返回列表</button>
+                      </div>
+                  </li>
+              </ul>
+              <ul class="lump wap_form">
+                  <li class="">
+                      <span class="text fl">手机端欢迎界面:</span>
+                      <div class="fl">
+                        <input type="text"><button class="choice btn-fff-80">选择图片</button>
+                        <div class="SampleImg">
+                          <img src="images/guanggao.png" alt="">
+                        </div>
+                        <p class="col-999">建议尺寸：750*1334，请将所有广告尺寸保持一致。</p>
+                      </div>
+                  </li>
+                  <li class="">
+                      <span class="text fl">手机端欢迎界面链接:</span>
+                      <div class="fl">
+                        <input type="text"><button class="choice btn-fff-80">选择链接</button>
+                      </div>
+                  </li>
+                  <li class="radio">
+                      <span class="text fl">状态：</span>
+                      <div class="fl">
+                        <input name="gg_wap_zt" type="radio" id="zt_show"><label for="zt_show">显示</label>
+                        <input name="gg_wap_zt" type="radio" id="zt_hide" checked="checked"><label for="zt_hide">隐藏</label>
+                      </div>
+                  </li>
+                  <li class="">
+                      <span class="text fl"></span>
+                      <div class="fl">
+                        <button class="btn-lan-160">提交</button>
+                        <a href="0401-客户管理首页01.html"><button class="btn-fff-160 mgl20">返回列表</button></a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <!-- 底部 == 版权 -->
+        <div class="cont_lump con-foot">版权所有：900库 [京ICP备1000000001号-1</di>
+    </div>
+
+</body>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/ind.js"></script>
+<script>
+  $(".cont_lump_yidongguanggao .span_nav span").click(function(){
+      $(this).addClass("active").siblings().removeClass('active'); 
+      $(".cont_lump_yidongguanggao .advert_form .lump").hide(0);
+      $(".cont_lump_yidongguanggao .advert_form .lump").eq($(".cont_lump_yidongguanggao .span_nav span").index(this)).show(0);
+    });
+</script>
+</html>

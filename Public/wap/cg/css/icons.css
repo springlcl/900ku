@@ -1,0 +1,14 @@
+.ico_all{background: url(../images/icons.png) no-repeat;} /*调取图标图片的地方*/
+.I_home{background-position:0 0;width: 15px;height: 15px;position: relative;top: 2px;} 	/*主页按钮*/
+.I_lx_ld{background-position:0 -19px;width: 14px;height: 30px;position: relative;top: 2px;} 	/*联系我们--领带*/
+.I_lx_sj{background-position:0 -51px;width: 16px;height: 25px;position: relative;top: 2px;} 	/*联系我们--手机*/
+.I_lx_dz{background-position:0 -79px;width: 28px;height: 21px;position: relative;top: 2px;} 	/*联系我们--地址*/
+.I_lan_xin{background-position:0 -105px;width: 16px;height: 14px;position: relative;top: 2px;} 	/*蓝色--❤心❤*/
+.I_lan_weixin{background-position:0 -123px;width: 13px;height: 13px;position: relative;top: 2px;} 	/*蓝色--微信*/
+.I_dianpu{background-position:0 -140px;width: 20px;height: 20px;position: relative;top: 4px;} 	/*蓝色--微信*/
+.I_qhkuai{background-position:0 -169px;width: 50px;height: 20px;position: relative;top: 4px;} 	/*块状*/
+.I_qhheng{background-position:0 -199px;width: 50px;height: 20px;position: relative;top: 4px;} 	/*列表*/
+.I_xiaojiantouxs{background: url(../images/shopping_ico1.png) no-repeat 0 3px;position: relative;top: -1px;width: 12px;height: 10px;}     /*向上的 尖括号 >*/
+.I_xiaojiantouxx{background: url(../images/shopping_ico2.png) no-repeat 0 3px;position: relative;top: -1px;width: 12px;height: 10px;} 	/*向下的 尖括号 >*/
+.I_gwc{background-position:0 -253px;width: 16px;height: 16px;position: relative;top: 3px;} 	/*购物车*/
+.I_guanbiX{background-position:0 -280px;width: 15px;height: 15px;position: relative;top: 3px;} 	/*关闭X号*/

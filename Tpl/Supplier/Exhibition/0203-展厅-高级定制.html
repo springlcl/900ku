@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>高级定制</title>
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="js/dist/switch.css">
+	<style>
+
+    </style>
+</head>
+<body>
+<!-- 左导一 -->
+  <div id="app-first-sidebar">
+    <div>
+      <ul>
+        <li class="fl head-img"><a class="team-logo-wrap" href="#" title="三只松鼠">
+        <div class="team-logo" style="background-image:url(./images/head-img.png);display:inline-block">
+        </div>
+        </a></li>
+        <li class="fl"><a class="switch-store" href="#">切换</a></li>
+      </ul>
+      <div style="clear:both">
+      </div>
+      <nav>
+       <ul class="one-level">
+          <li class="active"><a href="0105-展厅首页.html"><i class="sidebar-icon sidebar-icon-shop"></i> 展厅</a></li>
+          <li class="js-guide-goods"><a href="0301-发布商品.html"><i class="sidebar-icon sidebar-icon-goods"></i> 商品</a></li>
+          <li class="js-guide-fans"><a href="0402-业务员管理01.html"><i class="sidebar-icon sidebar-icon-fans"></i> 渠道管理</a></li>
+          <li class="js-guide-trade"><a href="0501-准入订单.html"><i class="sidebar-icon sidebar-icon-order"></i> 订单/财务</a></li>
+          <li class="js-guide-setting"><a href="0601-展厅信息.html"><i class="sidebar-icon sidebar-icon-setting"></i> 设置</a></li>
+        </ul>
+        <ul class="suspension">
+          <li class="system"><i></i>系统消息
+            <div class="sanjiao_left_hei t_box">
+              <h4>消息通知<i>3</i></h4>
+            </div>
+          </li>
+          <li class="tel"><i></i>客服电话
+            <div class="sanjiao_left_hei t_box">
+              <h4>客服电话</h4>
+              <h4>183182929292</h4>
+            </div>
+          </li>
+          <li class="ewm"><i></i>平台二维码
+            <div class="sanjiao_left_hei t_box">
+              <h4>平台二维码</h4>
+              <div class="img">
+                <img src="./images/index_end_tbc.png" alt="">
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+<!-- 左导二 -->
+  <div id="app-second-sidebar">
+    <div class="zg_scroll"></div>
+    <div>
+      <nav>
+      <dl>
+        <dt class="second-sidebar-title">展厅概况</dt>
+        <a href="0105-展厅首页.html"><dd>业务概况</dd></a>
+        <a href="0201-展厅微店设计.html"><dd>浏览概况</dd></a>
+        <dt class="second-sidebar-title">展厅装修</dt>
+        <a href="0202-展厅-选择模板.html"><dd>选择模版</dd></a>
+        <a href="0203-展厅-高级定制.html"><dd class="active">高级定制</dd></a>
+        <dt class="second-sidebar-title">展厅广告设置</dt>
+        <a href="0204-展厅-移动广告设置.html"><dd>广告设置</dd></a>
+        <dt class="second-sidebar-title">展厅服务</dt>
+        <a href="0207-展厅-我的文件01.html"><dd>我的文件</dd></a>
+        <a href="0208-展厅-客服列表01.html"><dd>客服列表</dd></a>
+        <a href="0209-展厅-供应商认证.html"><dd>供应商认证</dd></a>
+      </dl>
+      </nav>
+    </div>
+  </div>
+<!-- 右侧 内容-->
+    <div class="clearfix container" id="app-container">
+        <div class="cont_lump senior_dingzhi">
+            <div class="cont_title">
+              <span>高级定制</span>
+            </div>
+            <div class="con">
+                <ul class="custo_list">
+                    <li class="row clearfix row_advert">
+                        <div class="fl left_tit">广告栏</div>
+                        <div class="fl right_switch">
+                            <span>是否显示</span>
+                             <input type="checkbox" class="demo-text-1" />
+                        </div>
+                        <div class="right_con fl">
+                            <div class="sanjiao_left_ddd">
+                                <h5>注意：此模块不可编辑</h5>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row clearfix row_search">
+                        <div class="fl left_tit">搜索栏</div>
+                        <div class="fl right_switch">
+                            <span>是否显示</span>
+                             <input type="checkbox" class="demo-text-2" />
+                        </div>
+                        <div class="right_con fl">
+                            <div class="sanjiao_left_ddd">
+                                <h5>注意：搜索的商品是根据商品标题匹配的。</h5>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row clearfix row_notice">
+                        <div class="fl left_tit">公告栏</div>
+                        <div class="fl right_switch">
+                            <span>是否显示</span>
+                             <input type="checkbox" class="demo-text-3" />
+                        </div>
+                        <div class="right_con fl">
+                            <div class="sanjiao_left_ddd">
+                                <h5>公告：<input class="w220" type="text" placeholder="请填写内容,如果过长,将会在手机上滚动显示"></h5>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row clearfix row_cube">
+                        <div class="fl left_tit">魔方推荐</div>
+                        <div class="fl right_switch">
+                            <span>是否显示</span>
+                             <input type="checkbox" class="demo-text-4" />
+                        </div>
+                        <div class="right_con fl">
+                            <div class="sanjiao_left_ddd">
+                                <h5>商品魔方：<input class="w220"  type="text" placeholder="批量选择商品" disabled="disabled"><button>选择商品</button></h5>
+                            </div>
+                            <div class="imgs clearfix">
+                                <div class="img"><img src="./images/tianjia.png" alt=""><span class="jian">-</span></div>
+                                <div class="img"><img src="./images/tianjia.png" alt=""><span class="jian">-</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row clearfix row_commod">
+                        <div class="fl left_tit">商品栏</div>
+                        <div class="fl right_switch">
+                            <span>是否显示</span>
+                             <input type="checkbox" class="demo-text-5" />
+                        </div>
+                        <div class="right_con fl">
+                            <div class="sanjiao_left_ddd">
+                                <h5>商品推荐：<input class="w220"  type="text" placeholder="批量选择商品" disabled="disabled"><button>选择商品</button></h5>
+                            </div>
+                         
+                        </div>
+                    </li>
+                    <li class="row clearfix row_add">
+                        <div class="fl left_tit"></div>
+                        <div class="fl right_switch">
+                            <span>是否显示</span>
+                             <input type="checkbox" class="demo-text-6" />
+                        </div>
+                        <div class="right_con fl">
+                          
+                        </div>
+                    </li>
+
+                    <li class="row clearfix row_add">
+                        <div class="fl left_tit"></div>
+                        <div class="fl right_switch">
+                            <span>是否显示</span>
+                            <input type="checkbox" class="demo-text-7" />
+                        </div>
+                        <div class="right_con fl">
+                          
+                        </div>
+                    </li>
+
+                    <li class="row clearfix row_add">
+                        <div class="fl left_tit"></div>
+                        <div class="fl right_switch">
+                            <span>是否显示</span>
+                            <input type="checkbox" class="demo-text-8" />
+                        </div>
+                        <div class="right_con fl">
+                          
+                        </div>
+                    </li>
+
+                    <li class="row clearfix row_add">
+                        <div class="fl left_tit"></div>
+                        <div class="fl right_switch">
+                            <span>是否显示</span>
+                             <input type="checkbox" class="demo-text-9" />
+                        </div>
+                        <div class="right_con fl">
+                          
+                        </div>
+                    </li>
+                </ul>
+                <div class="confirm_rel">
+                    <button class="btn-lan-160 del_bnt">确认发布</button>
+                </div>
+            </div>
+        </div>
+        <!-- 底部 == 版权 -->
+        <div class="cont_lump con-foot">版权所有：900库 [京ICP备1000000001号-1</di>
+    </div>
+<style>
+
+</style>
+<!-- 弹框 -->
+<div class="protection"  >
+    <div class="tanchu_box  select_goods_box" >
+        <span class="gb close_btn"><i></i></span>
+        <h3 class="font-size24 font-weight600 col-333 pdh20 center">添加商品</h3>
+        <ul class="chax_form">
+            <form action="">
+                <li>
+                    <span class="text">商品分类：</span>
+                    <select name="" id="">
+                        <option value="">餐饮食品</option>
+                        <option value="">餐饮食品</option>
+                        <option value="">餐饮食品</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">坚果炒货</option>
+                        <option value="">坚果炒货</option>
+                        <option value="">坚果炒货</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">干货</option>
+                        <option value="">干货</option>
+                        <option value="">干货</option>
+                    </select>
+                </li>
+                <li>
+                    <span class="text">商品分类：</span>
+                    <input type="text">
+                    <button><i class="ico_all"></i></button>
+                </li>
+            </form>
+        </ul>
+        <ul class="sele_nav clearfix bg-f5">
+            <li class="se_che">&nbsp;</li>
+            <li class="se_xuhao">&nbsp;</li>
+            <li class="se_img">&nbsp;</li>
+            <li class="se_name">商品名称</li>
+            <li class="se_caozuo">操作</li>
+        </ul>
+        <ul class="goods_list ">
+            <li>
+                <div class="se_che"><input type="checkbox"></div>
+                <div class="se_xuhao">01</div>
+                <div class="se_img"><img src="images/print1.png" alt=""></div>
+                <div class="se_name">周杰伦-2017时间巡回演唱会cd</div>
+                <div class="se_caozuo"><span>选择</span></div>
+            </li>
+            <li>
+                <div class="se_che"><input type="checkbox"></div>
+                <div class="se_xuhao">02</div>
+                <div class="se_img"><img src="images/print1.png" alt=""></div>
+                <div class="se_name">周杰伦-2017时间巡回演唱会cd</div>
+                <div class="se_caozuo"><span>选择</span></div>
+            </li>
+            <li>
+                <div class="se_che"><input type="checkbox"></div>
+                <div class="se_xuhao">03</div>
+                <div class="se_img"><img src="images/print1.png" alt=""></div>
+                <div class="se_name">周杰伦-2017时间巡回演唱会cd</div>
+                <div class="se_caozuo"><span>选择</span></div>
+            </li>
+            <li>
+                <div class="se_che"><input type="checkbox"></div>
+                <div class="se_xuhao">04</div>
+                <div class="se_img"><img src="images/print1.png" alt=""></div>
+                <div class="se_name">周杰伦-2017时间巡回演唱会cd</div>
+                <div class="se_caozuo"><span>选择</span></div>
+            </li>
+            <li>
+                <div class="se_che"><input type="checkbox"></div>
+                <div class="se_xuhao">05</div>
+                <div class="se_img"><img src="images/print1.png" alt=""></div>
+                <div class="se_name">周杰伦-2017时间巡回演唱会cd</div>
+                <div class="se_caozuo"><span>选择</span></div>
+            </li>
+            <li>
+                <div class="se_che"><input type="checkbox"></div>
+                <div class="se_xuhao">06</div>
+                <div class="se_img"><img src="images/print1.png" alt=""></div>
+                <div class="se_name">周杰伦-2017时间巡回演唱会cd</div>
+                <div class="se_caozuo"><span>选择</span></div>
+            </li>
+            <li>
+                <div class="se_che"><input type="checkbox"></div>
+                <div class="se_xuhao">07</div>
+                <div class="se_img"><img src="images/print1.png" alt=""></div>
+                <div class="se_name">周杰伦-2017时间巡回演唱会cd</div>
+                <div class="se_caozuo"><span>选择</span></div>
+            </li>
+            <li>
+                <div class="se_che"><input type="checkbox"></div>
+                <div class="se_xuhao">08</div>
+                <div class="se_img"><img src="images/print1.png" alt=""></div>
+                <div class="se_name">周杰伦-2017时间巡回演唱会cd</div>
+                <div class="se_caozuo"><span>选择</span></div>
+            </li>
+        </ul>
+        <div class="foot">
+            <input type="checkbox">
+            <span>排量选择</span>
+            <button class="btn-lan-160">提交</button>
+        </div>
+    </div>
+
+        <!-- 确认发布 -->
+    <div class="tanchu_box delTanBox">
+      <span class="gb close_btn"><i></i></span>
+      <h3 class="tit">确定发布?</h3>
+      <div class="btn">
+        <button class="btn-lan-80 mgw15">确定</button>
+        <button class="btn-lan-80 mgw15 close_btn">取消</button>
+      </div>
+      <div class="prompt">温馨提示：请谨慎选择！</div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/dist/switch.js"></script>
+<script src="js/ind.js"></script>
+<script>
+        var switches = {};
+        var switchConfig = {
+
+            'demo-text-1' :{size: 'small',showText: true,onText: 'O',offText: 'X',checked: true},
+            'demo-text-2' :{size: 'small',showText: true,onText: 'O',offText: 'X',checked: true},
+            'demo-text-3' :{size: 'small',showText: true,onText: 'O',offText: 'X',checked: true},
+            'demo-text-4' :{size: 'small',showText: true,onText: 'O',offText: 'X',checked: true},
+            'demo-text-5' :{size: 'small',showText: true,onText: 'O',offText: 'X',checked: true},
+            'demo-text-6' :{size: 'small',showText: true,onText: 'O',offText: 'X',},
+            'demo-text-7' :{size: 'small',showText: true,onText: 'O',offText: 'X',},
+            'demo-text-8' :{size: 'small',showText: true,onText: 'O',offText: 'X',},
+            'demo-text-9' :{size: 'small',showText: true,onText: 'O',offText: 'X',}
+        };
+
+        Object.keys(switchConfig).forEach(function (key) {
+            switches[key] = new Switch(document.querySelector('.' + key),switchConfig[key]);
+        });
+
+        function switchHandle(key, event) {
+            switches[key][event]();
+        }
+        // hljs.initHighlightingOnLoad();
+
+</script>
+</html>

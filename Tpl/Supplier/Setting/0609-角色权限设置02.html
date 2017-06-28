@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加角色</title>
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+
+	</style>
+</head>
+<body>
+<!-- 左导一 -->
+  <div id="app-first-sidebar">
+    <div>
+      <ul>
+        <li class="fl head-img"><a class="team-logo-wrap" href="#" title="三只松鼠">
+        <div class="team-logo" style="background-image:url(./images/head-img.png);display:inline-block">
+        </div>
+        </a></li>
+        <li class="fl"><a class="switch-store" href="#">切换</a></li>
+      </ul>
+      <div style="clear:both">
+      </div>
+      <nav>
+        <ul class="one-level">
+          <li class=""><a href="0105-展厅首页.html"><i class="sidebar-icon sidebar-icon-shop"></i> 展厅</a></li>
+          <li class="js-guide-goods "><a href="0301-发布商品.html"><i class="sidebar-icon sidebar-icon-goods"></i> 商品</a></li>
+          <li class="js-guide-fans"><a href="0402-业务员管理01.html"><i class="sidebar-icon sidebar-icon-fans"></i> 渠道管理</a></li>
+          <li class="js-guide-trade"><a href="0501-准入订单.html"><i class="sidebar-icon sidebar-icon-order"></i> 订单/财务</a></li>
+          <li class="js-guide-setting active"><a href="0601-展厅信息.html"><i class="sidebar-icon sidebar-icon-setting"></i> 设置</a></li>
+        </ul>
+        <ul class="suspension">
+          <li class="system"><i></i>系统消息
+            <div class="sanjiao_left_hei t_box">
+              <h4>消息通知<i>3</i></h4>
+            </div>
+          </li>
+          <li class="tel"><i></i>客服电话
+            <div class="sanjiao_left_hei t_box">
+              <h4>客服电话</h4>
+              <h4>183182929292</h4>
+            </div>
+          </li>
+          <li class="ewm"><i></i>平台二维码
+            <div class="sanjiao_left_hei t_box">
+              <h4>平台二维码</h4>
+              <div class="img">
+                <img src="./images/index_end_tbc.png" alt="">
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+<!-- 左导二 -->
+  <div id="app-second-sidebar">
+    <div class="zg_scroll"></div>
+    <div >
+      <nav>
+      <dl>
+        <dt class="second-sidebar-title">展厅设置</dt>
+        <a href="0601-展厅信息.html"><dd >企业黄页</dd></a>
+        <a href="0603-消息通知.html"><dd>消息通知管理</dd></a>
+        <a href="0606-账号设置.html"><dd>账号设置</dd></a>
+        <dt class="second-sidebar-title">员工设置</dt>
+        <a href="0607-员工账号设置02.html"><dd>员工账号设置</dd></a>
+        <a href="0609-角色权限设置02.html"><dd class="active">角色权限设置</dd></a>
+        <dt class="second-sidebar-title">打印机</dt>
+        <a href="0610-订单打印01.html"><dd>订单打印机</dd></a>
+        <dt class="second-sidebar-title">物流设置</dt>
+        <a href="0701-物流设置01.html"><dd>物流工具</dd></a>
+      </dl>
+      </nav>
+    </div>
+  </div>
+<!-- 右侧 内容-->
+    <div class="clearfix container" id="app-container">
+        <div class="cont_lump cont_lump_Customer addRole bor_bm1">
+          <div class="cont_title">
+            <span>添加角色</span> 
+          </div>
+          <ul class="lump">
+            <li class="">         
+                <label class="text" ><i>*</i>角色名称:</label>
+                <input type="text">
+            </li>
+            <li>         
+                <label class="text" ><i>*</i>角色描述:</label>
+                  <input type="text">
+            </li>
+            <li>         
+                <label class="text" ><i>*</i>商品管理:</label>
+                <dl class="checks_box">
+                  <dd><input type="checkbox" id="box1_inp1"><label class="col-lan" for="box1_inp1">发布商品</label></dd>
+                  <dd><input type="checkbox" id="box1_inp2"><label class="col-lan" for="box1_inp2">出售中的商品</label></dd>
+                  <dd><input type="checkbox" id="box1_inp3"><label class="col-lan" for="box1_inp3">已售完商品</label></dd>
+                  <dd><input type="checkbox" id="box1_inp4"><label class="col-lan" for="box1_inp4">仓库中的商品</label></dd>
+                  <dd><input type="checkbox" id="box1_inp5"><label class="col-lan" for="box1_inp5">发布商品</label></dd>
+                  <dd><input type="checkbox" id="box1_inp6"><label class="col-lan" for="box1_inp6">发布商品</label></dd>
+                  <dd><input type="checkbox" id="box1_inp7"><label for="box1_inp7">发布商品</label></dd>
+                  <dd><input type="checkbox" id="box1_inp8"><label for="box1_inp8">发布商品</label></dd>
+                  <dd><input type="checkbox" id="box1_inp9"><label for="box1_inp9">发布商品</label></dd>
+                  <dd><input type="checkbox" id="box1_inp10"><label for="box1_inp10">发布商品</label></dd>
+                  <dd><input type="checkbox" id="box1_inp11"><label for="box1_inp11">发布商品</label></dd>
+                </dl>
+                <div class="check_all"><input type="checkbox" id="checks_all1"><label for="checks_all1">全选</label></div>
+            </li>
+            <li>         
+                <label class="text" ><i>*</i>订单管理:</label>
+                <dl class="checks_box">
+                  <dd><input type="checkbox" id="box2_inp1"><label class="col-lan" for="box2_inp1">订单概括</label></dd>
+                  <dd><input type="checkbox" id="box2_inp2"><label class="col-lan" for="box2_inp2">订单概括</label></dd>
+                  <dd><input type="checkbox" id="box2_inp3"><label class="col-lan" for="box2_inp3">订单概括</label></dd>
+                  <dd><input type="checkbox" id="box2_inp4"><label class="col-lan" for="box2_inp4">订单概括</label></dd>
+                  <dd><input type="checkbox" id="box2_inp5"><label class="col-lan" for="box2_inp5">订单概括</label></dd>
+                  <dd><input type="checkbox" id="box2_inp6"><label class="col-lan" for="box2_inp6">订单概括</label></dd>
+                  <dd><input type="checkbox" id="box2_inp7"><label class="col-lan" for="box2_inp7">订单概括</label></dd>
+                  <dd><input type="checkbox" id="box2_inp8"><label for="box2_inp8">订单概括</label></dd>
+                  <dd><input type="checkbox" id="box2_inp9"><label for="box2_inp9">订单概括</label></dd>
+                  <dd><input type="checkbox" id="box2_inp10"><label for="box2_inp10">订单概括</label></dd>
+                  <dd><input type="checkbox" id="box2_inp11"><label for="box2_inp11">订单概括</label></dd>
+                </dl>
+                <div class="check_all"><input type="checkbox" id="checks_all2"><label for="checks_all2">全选</label></div>
+            </li>
+            <li>         
+                <label class="text" >物流管理:</label>
+                <dl class="checks_box">
+                  <dd><input type="checkbox" id="box3_inp1"><label class="col-lan" for="box3_inp1">物流工具</label></dd>
+                  <dd><input type="checkbox" id="box3_inp2"><label class="col-lan" for="box3_inp2">物流工具</label></dd>
+                </dl>
+                <div class="check_all"><input type="checkbox" id="checks_all3"><label for="checks_all3">全选</label></div>
+            </li>
+            <li>         
+                <label class="text" >线下做单:</label>
+                <dl class="checks_box">
+                  <dd><input type="checkbox" id="box4_inp1"><label class="col-lan" for="box4_inp1">商家做单管理</label></dd>
+                  <dd><input type="checkbox" id="box4_inp2"><label class="col-lan" for="box4_inp2">商家线下做事</label></dd>
+                </dl>
+                <div class="check_all"><input type="checkbox" id="checks_all4"><label for="checks_all4">全选</label></div>
+            </li>
+            <li>         
+                <label class="text" >会员管理:</label>
+                <dl class="checks_box">
+                  <dd><input type="checkbox" id="box5_inp1"><label class="col-lan" for="box5_inp1">会员数据</label></dd>
+                  <dd><input type="checkbox" id="box5_inp2"><label class="col-lan" for="box5_inp2">积分使用</label></dd>
+                  <dd><input type="checkbox" id="box5_inp3"><label class="col-lan" for="box5_inp3">会员管理</label></dd>
+                  <dd><input type="checkbox" id="box5_inp4"><label for="box5_inp4">修改店铺积分</label></dd>
+                </dl>
+                <div class="check_all"><input type="checkbox" id="checks_all5"><label for="checks_all5">全选</label></div>
+            </li>
+            <li class="btn">         
+                <label class="text" >&nbsp;</label>
+                  <button class="btn-lan-160">保存</button>
+                  <button class="btn-lan-160 mgl20 checksReset">重置</button>
+            </li>
+          </ul>
+          
+        </div>
+        <!-- 底部 == 版权 -->
+        <div class="cont_lump con-foot">版权所有：900库 [京ICP备1000000001号-1</di>
+    </div>
+
+</body>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/ind.js"></script>
+</html>
