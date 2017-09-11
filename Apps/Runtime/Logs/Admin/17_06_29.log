@@ -1,0 +1,96 @@
+[ 2017-06-29T17:45:25+08:00 ] ::1 /900ku_git/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000422s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Undefined variable: style_url D:\phpStudy\WWW\900ku_git\Apps\Runtime\Cache\Admin\f27b47dde8e4fcbb7715cab81b53d9fd.php 第 392 行.
+NOTIC: [8] Undefined variable: style_url D:\phpStudy\WWW\900ku_git\Apps\Runtime\Cache\Admin\f27b47dde8e4fcbb7715cab81b53d9fd.php 第 410 行.
+NOTIC: [8] Undefined variable: style_url D:\phpStudy\WWW\900ku_git\Apps\Runtime\Cache\Admin\f27b47dde8e4fcbb7715cab81b53d9fd.php 第 422 行.
+NOTIC: [8] Undefined variable: style_url D:\phpStudy\WWW\900ku_git\Apps\Runtime\Cache\Admin\f27b47dde8e4fcbb7715cab81b53d9fd.php 第 440 行.
+NOTIC: [8] Undefined variable: style_url D:\phpStudy\WWW\900ku_git\Apps\Runtime\Cache\Admin\f27b47dde8e4fcbb7715cab81b53d9fd.php 第 453 行.
+NOTIC: [8] Undefined variable: style_url D:\phpStudy\WWW\900ku_git\Apps\Runtime\Cache\Admin\f27b47dde8e4fcbb7715cab81b53d9fd.php 第 466 行.
+NOTIC: [8] Undefined variable: style_url D:\phpStudy\WWW\900ku_git\Apps\Runtime\Cache\Admin\f27b47dde8e4fcbb7715cab81b53d9fd.php 第 478 行.
+NOTIC: [8] Undefined variable: style_url D:\phpStudy\WWW\900ku_git\Apps\Runtime\Cache\Admin\f27b47dde8e4fcbb7715cab81b53d9fd.php 第 496 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2017-06-29T17:45:25+08:00 ] ::1 /900ku_git/admin.php/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2017-06-29T17:45:28+08:00 ] ::1 /900ku_git/admin.php/system/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-06-29T17:45:29+08:00 ] ::1 /900ku_git/admin.php/system/flink.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-06-29T17:45:29+08:00 ] ::1 /900ku_git/admin.php/system/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+
+[ 2017-06-29T17:45:30+08:00 ] ::1 /900ku_git/admin.php/system/kuaidi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+
+[ 2017-06-29T17:45:30+08:00 ] ::1 /900ku_git/admin.php/system/keyword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+
+[ 2017-06-29T17:45:32+08:00 ] ::1 /900ku_git/admin.php/system/mingan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+
